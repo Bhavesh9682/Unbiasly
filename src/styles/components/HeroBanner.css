@@ -1,3 +1,4 @@
+/* Styles for larger screens (desktop) */
 .hero-banner {
   position: relative;
   width: 100%;
@@ -29,23 +30,23 @@
   z-index: 3;
   color: #010101; /* Adjust the text color if needed */
   margin-bottom: 10px;
-   /* Remove any default margin */
   max-width: 58%; /* Prevent overflow */
   text-align: left; /* Align text to the left */
 }
-.p{
-  color: #010101;
-    position: relative;
-    top: 60px;
-    left: 25px;
-    font-size: 17px;
-    line-height: 19px;
-    max-width: 52%;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-}
-.buttons{
-  position: relative;
 
+.p {
+  color: #010101;
+  position: relative;
+  top: 60px;
+  left: 25px;
+  font-size: 17px;
+  line-height: 19px;
+  max-width: 52%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.buttons {
+  position: relative;
   top: 12%;
   display: block;
   margin: 5px;
@@ -54,9 +55,9 @@
   border-radius: 5px;
   max-width: 50%;
   padding: 10px;
-  
 }
-.background-image2{
+
+.background-image2 {
   width: 30%;
   height: 75%;
   z-index: 10000;
@@ -65,4 +66,44 @@
   top: 20%;
   opacity: 1;
   border-radius: 5px;
+}
+
+/* Responsive Styles for Mobile Devices */
+@media (max-width: 768px) {
+  .hero-banner {
+    padding: 80px 10px 10px 10px; /* Adjust padding for smaller screens */
+    height: auto; /* Allow height to adjust based on content */
+  }
+
+  .background-image {
+    opacity: 0.5; /* Increase opacity for better visibility */
+  }
+
+  .h1tag {
+    font-size: 2.5rem; /* Smaller font size for mobile */
+    padding-left: 10px; /* Less padding on the left */
+    top: 20px; /* Adjust position for smaller screens */
+    max-width: 90%; /* Increase max-width for mobile */
+    text-align: center; /* Center-align text */
+  }
+
+  .p {
+    font-size: 14px; /* Adjust font size for better readability */
+    line-height: 18px; /* Adjust line-height */
+    max-width: 100%; /* Increase max-width for mobile */
+    left: 0; /* Reset left position */
+    top: 30px; /* Adjust position */
+  }
+
+  .buttons {
+    position: relative;
+    top: 35px;
+    max-width: 90%; /* Increase max-width for mobile */
+    margin: 10px 0; /* Adjust margins */
+    padding: 10px; /* Adjust padding */
+  }
+
+  .background-image2 {
+    display: none;
+  }
 }
