@@ -1,0 +1,59 @@
+/* Navbar container */
+.navbar {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    font-size: 15px;
+    justify-content: space-between;
+    z-index: 100;
+    padding: 20px;
+    position: fixed;
+    background-color: white;
+    margin-top: 10px auto;
+  }
+ 
+  
+ 
+  /* Logo styling */
+  .logo {
+    font-size: 25px;
+    font-weight: bold;
+  
+
+  }
+  
+  .logo a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+
+  }
+  
+  /* Navbar links list */
+  .nav-links {
+    list-style: none;
+    display: flex;
+    
+  }
+  
+  /* Navbar list items */
+  .nav-links li {
+  
+    margin: auto;
+  }
+  
+  /* Navbar links styling */
+  .nav-links a {
+    
+    text-decoration: none;
+    margin: 20px;
+    justify-content: space-between;
+  }
+  
+  /* Hover effect */
+  .nav-links a:hover {
+    text-decoration: underline;
+  
+  }
+  
+  /* Responsive design */
+  

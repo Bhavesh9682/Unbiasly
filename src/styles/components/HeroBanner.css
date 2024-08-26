@@ -1,0 +1,68 @@
+.hero-banner {
+  position: relative;
+  width: 100%;
+  display: block;
+  z-index: 1;
+  height: 100vh; /* Adjust height as needed */
+  overflow: hidden; /* Ensure content doesn't overflow */
+  padding: 110px 0px 20px 30px;
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.3; 
+  object-fit: cover; /* Ensure the image covers the container */
+  z-index: 0; /* Place image behind the text */
+}
+
+.h1tag {
+  position: relative;
+  top: 65px;
+  font-size: 4rem;
+  line-height: 1.2em;
+  left: 0;
+  padding-left: 20px; /* Add space between the text and left edge */
+  z-index: 3;
+  color: #010101; /* Adjust the text color if needed */
+  margin-bottom: 10px;
+   /* Remove any default margin */
+  max-width: 58%; /* Prevent overflow */
+  text-align: left; /* Align text to the left */
+}
+.p{
+  color: #010101;
+    position: relative;
+    top: 60px;
+    left: 25px;
+    font-size: 17px;
+    line-height: 19px;
+    max-width: 52%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.buttons{
+  position: relative;
+
+  top: 12%;
+  display: block;
+  margin: 5px;
+  border-style: solid;
+  border-color: white;
+  border-radius: 5px;
+  max-width: 50%;
+  padding: 10px;
+  
+}
+.background-image2{
+  width: 30%;
+  height: 75%;
+  z-index: 10000;
+  position: absolute;
+  left: 65%;
+  top: 20%;
+  opacity: 1;
+  border-radius: 5px;
+}
