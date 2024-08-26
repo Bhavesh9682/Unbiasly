@@ -1,59 +1,84 @@
 /* Navbar container */
 .navbar {
-    display: flex;
-    width: 100%;
-    align-items: center;
-    font-size: 15px;
-    justify-content: space-between;
-    z-index: 100;
-    padding: 20px;
-    position: fixed;
-    background-color: white;
-    margin-top: 10px auto;
-  }
- 
-  
- 
-  /* Logo styling */
-  .logo {
-    font-size: 25px;
-    font-weight: bold;
-  
+  display: flex;
+  width: 100%;
+  align-items: center;
+  font-size: 15px;
+  justify-content: space-between;
+  z-index: 100;
+  padding: 20px;
+  position: fixed;
+  background-color: rgb(255, 255, 255);
+  margin-top: 10px auto;
+}
 
-  }
-  
-  .logo a {
-    color: rgb(0, 0, 0);
-    text-decoration: none;
+/* Logo styling */
+.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
 
-  }
-  
-  /* Navbar links list */
-  .nav-links {
-    list-style: none;
-    display: flex;
-    
-  }
-  
-  /* Navbar list items */
-  .nav-links li {
-  
-    margin: auto;
-  }
-  
-  /* Navbar links styling */
+.logo a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+/* Navbar links list */
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin: 0; /* Ensure there's no margin around the list */
+  padding: 0; /* Remove default padding */
+}
+
+/* Navbar list items */
+.nav-links li {
+  margin: auto;
+}
+
+/* Navbar links styling */
+.nav-links a {
+  text-decoration: none;
+  margin: 0 20px; /* Adjust margin */
+  display: flex; /* Ensure link items are flex containers */
+  align-items: center;
+}
+
+/* Hover effect */
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+/* Toggle button styling */
+.navbar .toggle-button {
+  display: none;
+  font-size: 24px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 101; /* Ensure it’s above the nav links */
+}
+
+/* Responsive design */
+@media (max-width: 1024px) {
   .nav-links a {
+    display: none;
+  }
+ 
+ 
+  
+  .nav-links.active {
+    display: flex;
+  }
+  
+  #btn{
     
-    text-decoration: none;
-    margin: 20px;
-    justify-content: space-between;
+    display: none;
+    
+    
   }
   
-  /* Hover effect */
-  .nav-links a:hover {
-    text-decoration: underline;
-  
+  .toggle-button {
+    display: block;
   }
-  
-  /* Responsive design */
-  
+}

@@ -69,13 +69,14 @@
 }
 
 /* Responsive Styles for Mobile Devices */
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .hero-banner {
     padding: 80px 10px 10px 10px; /* Adjust padding for smaller screens */
     height: auto; /* Allow height to adjust based on content */
   }
 
   .background-image {
+    display: none;
     opacity: 0.5; /* Increase opacity for better visibility */
   }
 
