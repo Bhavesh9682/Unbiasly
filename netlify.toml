@@ -1,0 +1,23 @@
+[build]
+  # Command to build your project. For React, it is usually `npm run build`.
+  command = "npm run build"
+  
+  # Directory where your built assets are located.
+  # For Vite projects, this is usually `dist`. For Create React App, it's also `build`.
+  publish = "dist" # Change this to "build" if you're using Create React App
+
+  # Optional: Specify functions folder if you're using Netlify Functions.
+  functions = "netlify/functions"
+
+  ## Uncomment the following block if you're using a Single Page Application (SPA)
+  ## to handle client-side routing.
+  [[redirects]]
+    from = "/*"
+    to = "/index.html"
+    status = 200
+
+  ## (optional) Settings for Netlify Dev
+  #[dev]
+  #  command = "npm start" # Command to start your dev server
+  #  port = 3000 # Port that the dev server will be listening on
+  #  publish = "dist" # Folder with the static content for _redirect file
