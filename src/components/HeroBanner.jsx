@@ -10,7 +10,7 @@ const HeroBanner = () => {
         {/* <img src={backgroundImage} alt="Example" className='background-image' /> */}
        
         <h1 className='h1tag'>
-          Explore the Mysteries of the Universe with Cosmic Uplift
+          Explore the Mysteries of the Universe with Mystic Visions
         </h1>
       </div>
       <p className='p'>At Cosmic Uplift, we believe in the magic of the universe's plan for each individual. Our mission is to help you discover your true self, embrace your life's purpose, and navigate the infinite possibilities that lie ahead through the art of Tarot Reading and Numerology.</p>
