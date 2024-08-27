@@ -7,6 +7,7 @@ import HeroBanner from '../components/HeroBanner';
 import Footer from '../components/Footer';
 import Content from '../components/Content';
 import AboutPage from './AboutPage';
+import ServiceCard from '../components/ServiceCard';
 
 
 const Homepage = () => (
@@ -14,9 +15,9 @@ const Homepage = () => (
     <Navbar />
     <HeroBanner />
     <Content/>
+    <ServiceCard/>
     <AboutPage />
     <Footer/>
-
   </div>
 );
 

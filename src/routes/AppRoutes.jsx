@@ -12,6 +12,7 @@ import UserAccountPage from '../pages/UserAccountPage';
 import Pricing from '../pages/Pricing';
 import BookingForm from '../components/BookingForm';
 import CrystalShopPage from '../pages/CrystalShopPage';
+import ServiceCard from '../components/ServiceCard';
 
 const AppRoutes = () => (
   <Router>
@@ -19,7 +20,7 @@ const AppRoutes = () => (
       <Route path="/" element={<Homepage />} />
       <Route path="/about" element={<AboutPage />} />
       <Route path="/tarot-services" element={<TarotServicesPage />} />
-      <Route path="/numerology-services" element={<NumerologyServicesPage />} />
+      <Route path="/services" element={<ServiceCard />} />
       <Route path="/crystal-shop" element={<CrystalShopPage />} />
       <Route path="/PagesBlogPage " element={<PagesBlogPage />} />
       <Route path="/BookingForm " element={<BookingForm />} />

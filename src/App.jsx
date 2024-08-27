@@ -9,6 +9,7 @@ import PagesBlogPage from './pages/PagesBlogPage';
 import NumerologyServicesPage from './pages/NumerologyServicesPage';
 import CommunityPage from './pages/CommunityPage';
 import EventsPage from './pages/EventsPage';
+import ServiceCard from './components/ServiceCard';
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
       <Route path="/BookingForm" element={<BookingForm />} />
       <Route path="/crystal-shop" element={<CrystalShopPage />} />
       <Route path="/PagesBlogPage" element={<PagesBlogPage />} />
-      <Route path="/numerology-services" element={<NumerologyServicesPage/>} />
+      <Route path="/services" element={<ServiceCard/>} />
       <Route path="/community" element={<CommunityPage/>} />
       <Route path="/events" element={<EventsPage/>} />
     </Routes>
