@@ -13,7 +13,7 @@ const HeroBanner = () => {
           Explore the Mysteries of the Universe with Mystic Visions
         </h1>
       </div>
-      <p className='p'>At Cosmic Uplift, we believe in the magic of the universe's plan for each individual. Our mission is to help you discover your true self, embrace your life's purpose, and navigate the infinite possibilities that lie ahead through the art of Tarot Reading and Numerology.</p>
+      <p className='p' >At Mystic Visions, we believe in the magic of the universe's plan for each individual. Our mission is to help you discover your true self, embrace your life's purpose, and navigate the infinite possibilities that lie ahead through the art of Tarot Reading and Numerology.</p>
       <div className='buttons flex flex-col items-center gap-2 md:flex-row md:items-start'>
         <button
           type="button"
@@ -21,6 +21,7 @@ const HeroBanner = () => {
         >
           Subscribe to the newsletter →
         </button>
+        
 
         <Link id="booking-btn" to="/BookingForm">
           <button

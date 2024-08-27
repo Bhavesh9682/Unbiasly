@@ -6,7 +6,6 @@ const NumerologyServicesPage = () => {
     <div>
         <>
         <Navbar/>
-        <h1 className="soon">Numberology Services Page</h1>
         <h2 className="soon">SOON</h2>
         </>
      

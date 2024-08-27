@@ -1,3 +1,9 @@
+#content{
+  display: flex;
+  align-items: center; /* Center text vertically */
+  justify-content: center; /* Center text horizontally */
+  text-align: center; /* Center text if it wraps */
+}
 @media (max-width: 1024px) {
 #image7{
     max-width: 100%;
@@ -5,9 +11,10 @@
    margin: 0px 20px;
     
 }
-#Content{
-  position: relative;
-  justify-content: center;
-  align-items: center;
+#content{
+  display: flex;
+  align-items: center; /* Center text vertically */
+  justify-content: center; /* Center text horizontally */
+  text-align: center; /* Center text if it wraps */
 }
 }

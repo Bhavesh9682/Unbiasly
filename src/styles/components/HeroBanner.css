@@ -42,7 +42,10 @@
   font-size: 17px;
   line-height: 19px;
   max-width: 52%;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  justify-content: center;
+  align-items: center;
+  text-align:start;
+  
 }
 
 .buttons {
@@ -86,7 +89,9 @@
     padding-left: 10px; /* Less padding on the left */
     top: 20px; /* Adjust position for smaller screens */
     max-width: 90%; /* Increase max-width for mobile */
-    text-align: center; /* Center-align text */
+    justify-content: center;
+    align-items: center;
+    text-align:center
   }
 
   .p {
@@ -95,6 +100,9 @@
     max-width: 100%; /* Increase max-width for mobile */
     left: 0; /* Reset left position */
     top: 30px; /* Adjust position */
+    justify-content: center;
+    align-items: center;
+    text-align:center
   }
 
   .buttons {
@@ -103,6 +111,9 @@
     max-width: 90%; /* Increase max-width for mobile */
     margin: 10px 0; /* Adjust margins */
     padding: 10px; /* Adjust padding */
+    justify-content: center;
+    align-items: center;
+    text-align:start;
   }
 
   .background-image2 {
