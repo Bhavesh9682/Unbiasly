@@ -6,7 +6,7 @@ https://unbiasly.netlify.app
 
 Ensure that you have the following tools installed on your system before proceeding:
 
-- [Node.js](https://nodejs.org/) (v14 or higher)
+- [Node.js](https://nodejs.org/) (v20 or higher)
 - [npm](https://www.npmjs.com/)
 
 
