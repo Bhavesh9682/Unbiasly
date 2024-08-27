@@ -43,7 +43,7 @@ const posts = [
         'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.',
       date: 'May 16, 2020',
       datetime: '2024-05-16',
-      category: { title: 'Marketing', href: '#' },
+      category: { title: '', href: '#' },
       author: {
         name: 'DOE',
         role: 'Client',

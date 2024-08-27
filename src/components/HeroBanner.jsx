@@ -7,7 +7,7 @@ const HeroBanner = () => {
   return (
     <div className="hero-banner">
       <div className='content'>
-        {/* <img src={backgroundImage} alt="Example" className='background-image' /> */}
+        <img src={backgroundImage} alt="Example" className='background-image' />
 
         <h1 className='h1tag'>
           Explore the Mysteries of the Universe with Mystic Visions
