@@ -13,7 +13,6 @@ const Homepage = () => (
   <div className="homepage">
     <Navbar />
     <HeroBanner />
-
     <Content/>
     <AboutPage />
     <Footer/>

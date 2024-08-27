@@ -1,12 +1,7 @@
 // src/pages/AboutPage.jsx
 import React from 'react';
 import image1 from '../assets/images/image1.jpg';
-import image2 from '../assets/images/image2.jpg';
-import image3 from '../assets/images/image3.jpg';
-import image4 from '../assets/images/image4.jpg';
 import image11 from '../assets/images/image11.jpg';
-import image10 from '../assets/images/image10.jpg';
-import image9 from '../assets/images/image9.jpg';
 import Navbar from '../components/Navbar';
 
 const AboutPage = () => {
@@ -23,7 +18,7 @@ const AboutPage = () => {
         </div>
         <div className="grid grid-cols-2 gap-2 mt-20">
             <img className="w-full rounded-lg" src={image1} alt="office content 1"/>
-            <img className="mt-4 w-full lg:mt-10 rounded-lg" src={image11} alt="office content 2"/>
+            <img className="mt-7 w-full lg:mt-10 rounded-lg" src={image11} alt="office content 2"/>
         </div>
     </div>
 </section>
