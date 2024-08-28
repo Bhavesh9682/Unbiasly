@@ -7,7 +7,7 @@ const PagesBlogPage = () => {
     <div>
       <Navbar />
 
-      <BlogPage title="From the blog"  />
+      <BlogPage title="Blogs"  />
       <BlogPage/>
      
     </div>

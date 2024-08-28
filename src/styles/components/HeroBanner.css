@@ -63,7 +63,7 @@
 .background-image2 {
   width: 30%;
   height: 75%;
-  z-index: 10000;
+  z-index: 100;
   position: absolute;
   left: 65%;
   top: 20%;
@@ -85,13 +85,14 @@
   }
 
   .h1tag {
+    margin: auto;
     font-size: 2.5rem; /* Smaller font size for mobile */
-    padding-left: 10px; /* Less padding on the left */
     top: 20px; /* Adjust position for smaller screens */
     max-width: 90%; /* Increase max-width for mobile */
     justify-content: center;
     align-items: center;
-    text-align:center
+    text-align:center;
+    padding: 10px;
   }
 
   .p {
@@ -109,7 +110,7 @@
     position: relative;
     top: 35px;
     max-width: 90%; /* Increase max-width for mobile */
-    margin: 10px 0; /* Adjust margins */
+    margin: 10px auto; /* Adjust margins */
     padding: 10px; /* Adjust padding */
     justify-content: center;
     align-items: center;
